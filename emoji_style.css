@@ -1,0 +1,99 @@
+.head {
+    /*Positions the head relative to the body*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*Sets the color of the container and rounds the corners*/
+    background-color: #F2CF66;
+    border-radius: 50%;
+  
+    /*Sets the size of the container*/
+    width: 250px;
+    height: 260px;
+  }
+  
+  /* write your own CSS rules for the other parts, below! */
+  
+
+.eye {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  height: 60px;
+  width: 60px;
+
+  background-color: white;
+  border-radius: 50%;
+  
+
+
+}
+
+.eye2 {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  height: 60px;
+  width: 60px;
+
+  background-color: white;
+  border-radius: 50%;
+  
+
+  
+}
+
+.pupil{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 25px;
+  width: 25px;
+
+  background-color: black;
+  border-radius: 50%;
+}
+
+.pupil2{
+  position: absolute;
+  left: 15px;
+  top: 15%;
+  height: 25px;
+  width: 25px;
+
+  background-color: black;
+  border-radius: 50%;
+}
+
+
+.mouth{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0  150px 150px;
+  border-left: 25px;
+  background-color: palevioletred;
+}
+
+.teeth{
+  position: absolute;
+  height: 15px;
+  width: 200px;
+  background-color: whitesmoke;
+}
+
+.tongue{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  height: 50px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 50%;
+
+}
